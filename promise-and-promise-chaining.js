@@ -36,3 +36,7 @@ createOrder(cart)
   console.log(orderStatus)
   console.log(showOrderStatus(orderStatus));
 }).catch((err) => console.log(err));
+
+
+
+// Promise chaining to avoid the pyramid of doom.
